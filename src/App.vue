@@ -186,7 +186,7 @@ const toggleMenu = () => {
         </p>
         <a
           href="https://chat.whatsapp.com/HwtmI7S4Lkk8U1vac1YcQy?s=cl&p=a&mlu=0"
-          class="hidden sm:block px-6 py-2.5 bg-white text-black font-bold rounded-full hover:bg-blue-500 shadow-lg text-sm hover:shadow-blue-500/50 hover:scale-105 transition-all"
+          class="px-6 py-2.5 bg-white text-black font-bold rounded-full hover:bg-blue-500 shadow-lg text-sm hover:shadow-blue-500/50 hover:scale-105 transition-all"
           >Gabung Grup WhatsApp</a
         >
         <div class="mt-6 flex flex-wrap justify-center gap-6 text-xs font-semibold text-slate-400">
@@ -307,7 +307,7 @@ const toggleMenu = () => {
       </div>
     </div>
   </section>
-  <section class="py-32 px-6 bg-linear-to-tr from-black to-blue-900">
+  <section id="harga" class="py-32 px-6 bg-linear-to-tr from-black to-blue-900">
     <div class="max-w-7xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Harga Kami</h2>
       <p class="text-lg text-gray-300 mb-12">
@@ -356,7 +356,7 @@ const toggleMenu = () => {
     </div>
   </section>
 
-  <section class="py-32 px-6 bg-linear-to-tr from-black to-blue-900">
+  <section id="contact" class="py-32 px-6 bg-linear-to-tr from-black to-blue-900">
     <div class="max-w-7xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Kontak Kami</h2>
       <p class="text-lg text-gray-300 mb-12">
